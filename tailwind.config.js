@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "fab-slider": "url('/src/images/fabSliderBg.png')",
+      },
+    },
   },
   plugins: [],
 }

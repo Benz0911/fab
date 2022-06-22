@@ -1,12 +1,11 @@
 import React from "react"
-import fabLogo from "../images/fabLogo.png"
 
 function Search(){
     return (
         <div className="border-4 border-gray-300 p-7">
             <div className="flex">
-                <button class="shrink w-[25rem] h-[4rem] border-4 border-gray-300">POST A JOB</button>
-                <button class="shrink w-[25rem] h-[4rem] border-4 border-gray-300">FIND A BUILDER</button>
+                <button className="shrink w-[25rem] h-[4rem] border-4 border-gray-300">POST A JOB</button>
+                <button className="shrink w-[25rem] h-[4rem] border-4 border-gray-300">FIND A BUILDER</button>
             </div>
             <div className="h-[15rem] bg-blue-400 mt-2 px-[30rem] py-[2rem]">
                 <div className="flex justify-between">
