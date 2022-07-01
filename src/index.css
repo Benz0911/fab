@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* @font-face{
+  font-family:'gotham_black';src:url('fonts/gotham-black.eot');src:url('fonts/gotham-black.eot?#iefix') format('embedded-opentype'),url('fonts/gotham-black.ttf') format('truetype');font-weight:normal;font-style:normal;}*/
+@font-face{
+  font-family:'gotham_bold';
+  /* src:url('fonts/gotham-bold.eot'); */
+  src:url('fonts/gotham-bold.ttf') format('truetype');font-weight:normal;
+  font-style:normal;
+} 
+/* @font-face{font-family:'quanta_east';src:url('fonts/quanta-east.eot');src:url('fonts/quanta-east.eot?#iefix') format('embedded-opentype'),url('fonts/quanta-east-webfont.ttf') format('truetype');font-weight:normal;font-style:normal;} */
+/* @font-face{font-family:'gotham_book';src:url('fonts/gotham_book.eot');src:url('fonts/gotham_book.eot?#iefix') format('embedded-opentype'),url('fonts/gotham_book.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'gotham_medium';src:url('fonts/gotham_medium.eot');src:url('fonts/gotham_medium.eot?#iefix') format('embedded-opentype'),url('fonts/gotham_medium.ttf') format('truetype');font-weight:normal;font-style:normal;} */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,4 +27,80 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar-collapse{
+  display: block;
+  opacity: 1;
+  position: relative;
+  transition: none;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  background: none;
+  overflow: unset;
+  z-index: auto;
+}
+.navbar-nav{
+  font-family: gotham_bold,sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+.nav-link{
+  border-bottom: 5px solid transparent;
+  color: #023f88;
+}
+#navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, 
+#navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active, 
+#navbar .navbar-collapse .navbar-nav .nav-item.dropdown:hover .nav-link{
+  background-color: #023f88;
+  color: #fff;
+  border-bottom: 5px solid #00aeef;
+  transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.5s ease-out;
+}
+
+.navbar-nav .nav-buttons {
+  margin-top: 0;
+  margin-left: 20px;
+  min-width: 120px;
+}
+.navbar-collapse .navbar-nav .home-img {
+  width: 50px;
+  height: 45px;
+  background-image: url(images/house_blue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#navbar .navbar-collapse .navbar-nav .nav-item.home .nav-link:hover .home-img, 
+#navbar .navbar-collapse .navbar-nav .nav-item.home.dropdown:hover .home-img {
+  background-image: url(images/house_white.png);
+}
+.btn-new {
+  text-align: center;
+  font-family: gotham_bold,sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 0;
+  line-height: 20px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+.btn-new.reg {
+  background-color: #00AEEF;
+}
+.btn-new.reg:hover {
+  background-color: #0096cc;
+}
+.btn-primary {
+  background-color: #023f88;
+}
+.btn-primary:hover {
+  background-color: #012551;
 }

@@ -2,7 +2,7 @@ import React from "react"
 
 function Search(){
     return (
-        <div className="border-4 border-gray-300 p-7">
+        <div className="px-5">
             <div className="flex">
                 <button className="shrink w-[25rem] h-[4rem] border-4 border-gray-300">POST A JOB</button>
                 <button className="shrink w-[25rem] h-[4rem] border-4 border-gray-300">FIND A BUILDER</button>
