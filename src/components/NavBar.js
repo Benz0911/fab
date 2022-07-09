@@ -4,7 +4,7 @@ import fabLogo from "../images/fabLogo.png"
 function NavBar() {
     return (
         <nav className="bg-white" id="navbar">
-            <div className="flex flex-nowrap justify-between items-center px-5 h-[115px] border-b-4 border-[#d8d8d8]">
+            <div className="navbar-wrap flex flex-nowrap justify-between items-center px-5 h-[115px] border-b-4 border-[#d8d8d8]">
                 <a href="/" className="inline-block mt-[10px] h-full max-h-[100px] max-w-[120px] md:max-w-[150px] lg:max-w-[158px] md:min-w-[150px] lg:min-w-[158px]">
                     <img src={fabLogo} alt="FIND-A-BUILDER.COM" title="FIND-A-BUILDER.COM a better building world" className="h-full w-full"/>
                 </a>

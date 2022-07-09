@@ -4,16 +4,16 @@
 
 
 /* @font-face{
-  font-family:'gotham_black';src:url('fonts/gotham-black.eot');src:url('fonts/gotham-black.eot?#iefix') format('embedded-opentype'),url('fonts/gotham-black.ttf') format('truetype');font-weight:normal;font-style:normal;}*/
+  font-family:'gotham_black';src:url('fonts/gotham-black.eot');src:url('fonts/gotham-black.eot?#iefix') format('embedded-opentype'),url('fonts/gotham-black.ttf') format('truetype');font-weight:normal;font-style:normal;}
 @font-face{
   font-family:'gotham_bold';
-  /* src:url('fonts/gotham-bold.eot'); */
+  src:url('fonts/gotham-bold.eot');
   src:url('fonts/gotham-bold.ttf') format('truetype');font-weight:normal;
   font-style:normal;
 } 
-/* @font-face{font-family:'quanta_east';src:url('fonts/quanta-east.eot');src:url('fonts/quanta-east.eot?#iefix') format('embedded-opentype'),url('fonts/quanta-east-webfont.ttf') format('truetype');font-weight:normal;font-style:normal;} */
-/* @font-face{font-family:'gotham_book';src:url('fonts/gotham_book.eot');src:url('fonts/gotham_book.eot?#iefix') format('embedded-opentype'),url('fonts/gotham_book.ttf') format('truetype');font-weight:normal;font-style:normal;}
-@font-face{font-family:'gotham_medium';src:url('fonts/gotham_medium.eot');src:url('fonts/gotham_medium.eot?#iefix') format('embedded-opentype'),url('fonts/gotham_medium.ttf') format('truetype');font-weight:normal;font-style:normal;} */
+@font-face{font-family:'quanta_east';src:url('fonts/quanta-east.eot');src:url('fonts/quanta-east.eot?#iefix') format('embedded-opentype'),url('fonts/quanta-east-webfont.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'gotham_book';src:url('fonts/gotham_book.eot');src:url('fonts/gotham_book.eot?#iefix') format('embedded-opentype'),url('fonts/gotham_book.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'gotham_medium';src:url('fonts/gotham_medium.eot');src:url('fonts/gotham_medium.eot?#iefix') format('embedded-opentype'),url('fonts/gotham_medium.ttf') format('truetype');font-weight:normal;font-style:normal;}
 
 body {
   margin: 0;
@@ -103,4 +103,4 @@ code {
 }
 .btn-primary:hover {
   background-color: #012551;
-}
+} */

@@ -1,29 +1,58 @@
 import React from "react"
 
 const HomeSpecialist = () => (
-    <div 
-    className='h-[20rem] flex flex-row p-9'
-    >
-        <div className="text-center">
-            <h1>
-             We Provide Every Type Of Specialist For Your Projects
-            </h1>
-            <p>
-            Find a Builder offers every type of building specialist - from architect to zinc roofer - so our clients can find exactly the expertise they want.
-            </p>
+    <section id="home_specialists">
+        <div className="specialists-wrap">
+            <div className="specialists-column">
+                <div className="specialists-title">
+                    <h2>We Provide Every Type Of Specialist For Your Projects</h2>
+                    <div className="title_bottom_blue_line"></div>
+                </div>
+                <div className="specialists-description">
+                    Find a Builder offers every type of
+                    building specialist - from architect to
+                    zinc roofer - so our clients can find
+                    exactly the expertise they want.
+                </div>
+            </div>
+            <div className="specialists-column">
+                <div className="specialists-links">
+                    <ul>
+                        <li>
+                            <a href="./directory/plumbing-heating-gas-engineer" title="Plumber">Plumbers</a></li>
+                        <li>
+                            <a href="./directory/general-builder" title="Builder">
+                                Builder
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./directory/carpenter-or-joiner" title="Carpenter">
+                                Carpenter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./directory/commercial-and-residential-cleaning-cleaner" title="Cleaner">
+                                Cleaner
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./directory/stonework-mason" title="Mason">
+                                Mason
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./directory/window-cleaner" title="Window Cleaner">
+                                Window Cleaner
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className="specialists-buttons to-mobile-only">
+                <a href="#" className="btn-new btn-primary">SHOW MORE</a>
+            </div>
         </div>
-
-        <div className="flex flex-row px-5">
-            <ul>
-                <li><a>Plumbers </a></li>
-                <li><a>Builder </a></li>
-                <li><a>Carpenter </a></li>
-                <li><a>Cleaner </a></li>
-                <li><a>Mason </a></li>
-                <li><a>Window Cleaner</a></li> 
-            </ul>
-        </div>
-    </div>
+    </section>
 )
 
 export default HomeSpecialist;

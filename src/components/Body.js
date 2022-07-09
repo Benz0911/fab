@@ -8,13 +8,18 @@ import HomeReviews from './HomeReviews'
 
 function Body() {
   return (
-    <div className="md:py-[30px] py-[25px]">
-      <Search />
-      <HomeSlider />
-      <HomeAdvantage />
-      <HomeBenefits />
-      <HomeSpecialist />
-      <HomeReviews />
+    <div className="homepage main" id="content">
+        <div className="page home-page">
+            <div className="page_content">
+                <Search />
+                <HomeSlider />
+                <HomeAdvantage />
+                <HomeBenefits />
+                <HomeSpecialist />
+                <HomeReviews />
+
+            </div>
+        </div>
     </div>
   );
 }

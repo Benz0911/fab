@@ -1,11 +1,9 @@
 import React from "react"
 
 const HomeReviews = () => (
-    <div 
-    className='h-[20rem] px-9 text-center'
-    >
-        Ron Moss CEO
-    </div>
+    <section id="home_reviews" className="with-padding">
+        
+    </section>
 )
 
 export default HomeReviews;
